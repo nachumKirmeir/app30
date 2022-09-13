@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back3"
+    tools:context=".ticTacToeVS_Friend">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Game Against the computer"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Points User: 0 ---- Points Computer: 0"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:layout_gravity="center"
+        android:id="@+id/tvScore"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn0"
+            app:backgroundTint = "#3299EC"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn1"
+            android:layout_marginRight="10dp"
+            app:backgroundTint = "#3299EC"
+
+
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:backgroundTint = "#3299EC"
+            android:id="@+id/btn2"
+            android:layout_margin="2dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn3"
+            app:backgroundTint = "#3299EC"
+
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn4"
+            app:backgroundTint = "#3299EC"
+            android:layout_marginRight="10dp"
+
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn5"
+            app:backgroundTint = "#3299EC"
+            android:layout_margin="2dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/l3"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn6"
+            app:backgroundTint = "#3299EC"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn7"
+            app:backgroundTint = "#3299EC"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn8"
+            android:layout_margin="2dp"
+            app:backgroundTint = "#3299EC"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/tvWin"
+            android:textSize ="20sp"
+            android:text="User win"
+            android:background="#4B850D"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnResetGame"
+            android:text="play again"
+            android:layout_margin="2dp"
+            app:backgroundTint = "#4B850D"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/btnRestartScore"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Restart Points Record"
+            app:backgroundTint = "#4B850D"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/btnHomePage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Return To Home Page"
+            app:backgroundTint = "#4B850D"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

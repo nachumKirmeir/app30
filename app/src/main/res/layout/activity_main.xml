@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tic tac toe(X O)"
+        android:textSize="40sp"
+        android:textColor="#000"
+        />
+    <Button
+        android:id="@+id/btnStartGameVS_Computer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game VS computer"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        app:backgroundTint = "#FF9800"
+        />
+    <Button
+        android:id="@+id/btnStartGameVS_Friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game VS Friend"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        app:backgroundTint = "#FF9800"
+        />
+    <Button
+        android:id="@+id/btnOpenYoutubeVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Video That will make you a better player"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        app:backgroundTint = "#FF9800"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_gravity="start"
+        android:textColor="#000"
+
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/sb"
+        />
+
+</LinearLayout>
