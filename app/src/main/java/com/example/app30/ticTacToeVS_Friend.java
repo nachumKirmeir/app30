@@ -43,9 +43,6 @@ public class ticTacToeVS_Friend extends AppCompatActivity implements View.OnClic
         for(int i=0;i<3;i++)
             for(int j=0;j<3;j++)
                 buttons[i][j].setOnClickListener(this);
-        Toast.makeText(this, "sadfsaf", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "sadfsaf", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "sadfsaf", Toast.LENGTH_SHORT).show();
     }
 
     @Override
