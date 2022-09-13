@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else if(v == btnStartGameVS_Friend){
             Intent intent = new Intent(MainActivity.this, ticTacToeVS_Friend.class);
             startActivity(intent);
-            Toast.makeText(this, "ddd", Toast.LENGTH_SHORT).show();
         }
         else if(v == btnStartGameVS_Computer){
             Intent intent = new Intent(MainActivity.this, ticTacTowVS_computer.class);
